@@ -24,7 +24,7 @@ export function MainListItems() {
           <ListItemIcon>
             <DashboardIcon/>
           </ListItemIcon>
-          <ListItemText primary="Home"/>
+          <ListItemText primary="Block Gas"/>
         </ListItem>
       </Link>
       <Link to="/txversionchart" css={styledlink}>
@@ -32,7 +32,7 @@ export function MainListItems() {
           <ListItemIcon>
             <DashboardIcon/>
           </ListItemIcon>
-          <ListItemText primary="Products" css={styledlink} />
+          <ListItemText primary="Transaction Versions" css={styledlink} />
         </ListItem>
       </Link>
     </div>
