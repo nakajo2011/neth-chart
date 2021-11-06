@@ -1,14 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Route, Routes} from 'react-router-dom';
+import FeeChart from './pages/FeeChart';
+import TxVersionChart from './pages/TxVersionChart';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>NethChart is work in progress........</h1>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/txversionchart" element={<TxVersionChart />} />
+      <Route path="/" element={<FeeChart />} />
+    </Routes>
   );
 }
 
